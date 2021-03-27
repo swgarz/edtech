@@ -1,11 +1,11 @@
 body {
   margin: 0;
-  font:normal 75% Arial, Helvetica, sans-serif;
+  font: normal 75% Arial, Helvetica, sans-serif;
   /* background: #13E8E9;; */
-  background: #4CDFA8;
-  color:#4CDFA8;
+  background: #4cdfa8;
+  color: #4cdfa8;
   font-size: 16px;
-  font-family: 'Chango', cursive;
+  font-family: "Chango", cursive;
 }
 
 canvas {
@@ -13,45 +13,45 @@ canvas {
   vertical-align: bottom;
 }
 /*Nav*/
-a{
-    color: #fafafa;
-    text-decoration: none;
+a {
+  color: #fafafa;
+  text-decoration: none;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
-.container{
-    width: 90%;
-    margin: auto;
+.container {
+  width: 90%;
+  margin: auto;
 }
 /*Navigation*/
-.nav-main{
-    font-size: 17px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 20px 0;
+.nav-main {
+  font-size: 17px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 20px 0;
 }
-.nav-brand{
-    width: 50px;
+.nav-brand {
+  width: 50px;
 }
 /*nav left*/
-.nav-main ul{
-    display: flex;
+.nav-main ul {
+  display: flex;
 }
-.nav-main ul li{
-    padding: 10px;
+.nav-main ul li {
+  padding: 10px;
 }
-.nav-main ul li a{
-    padding: 2px;
+.nav-main ul li a {
+  padding: 2px;
 }
-.nav-main ul li a:hover{
-    border-bottom: 2px solid #fafafa;
+.nav-main ul li a:hover {
+  border-bottom: 2px solid #fafafa;
 }
-.nav-main ul.nav-menu{
-    flex: 1;
-    margin-left: 20px;
+.nav-main ul.nav-menu {
+  flex: 1;
+  margin-left: 20px;
 }
 /*Termina Nav*/
 /* ---- particles.js container ---- */
@@ -69,14 +69,14 @@ ul{
 
 /* ---- stats.js ---- */
 
-.count-particles{
+.count-particles {
   background: #000022;
   position: absolute;
   top: 48px;
   left: 0;
   width: 80px;
-  color: #13E8E9;
-  font-size: .8em;
+  color: #13e8e9;
+  font-size: 0.8em;
   text-align: left;
   text-indent: 4px;
   line-height: 14px;
@@ -85,38 +85,37 @@ ul{
   font-weight: bold;
 }
 
-.js-count-particles{
+.js-count-particles {
   font-size: 1.1em;
 }
 
 #stats,
-.count-particles{
+.count-particles {
   -webkit-user-select: none;
 }
 
-#stats{
+#stats {
   border-radius: 3px 3px 0 0;
   overflow: hidden;
 }
 
-.count-particles{
+.count-particles {
   border-radius: 0 0 3px 3px;
 }
 
 /*Container fluid - content photos*/
-.container-fluid{
+.container-fluid {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   background: #fafafa;
   width: 100%;
   height: auto;
   align-items: center;
-
 }
 /* .col{
   align-self: center;
 } */
-img{
+img {
   width: 100%;
 }
