@@ -1,8 +1,8 @@
 body {
   margin: 0;
   font:normal 75% Arial, Helvetica, sans-serif;
-  background: #4c878f;
-  color: #fafafa;
+  background: #aebbbd;
+  color: #4e7951;
   font-size: 16px;
   font-family: 'Chango', cursive;
 }
@@ -100,4 +100,22 @@ ul{
 
 .count-particles{
   border-radius: 0 0 3px 3px;
+}
+
+/*Container fluid - content photos*/
+.container-fluid{
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: repeat(2,1fr);
+  background: #fafafa;
+  width: 100%;
+  height: auto;
+  align-items: center;
+
+}
+/* .col{
+  align-self: center;
+} */
+img{
+  width: 100%;
 }
