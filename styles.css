@@ -1,8 +1,9 @@
 body {
   margin: 0;
   font:normal 75% Arial, Helvetica, sans-serif;
-  background: #aebbbd;
-  color: #4e7951;
+  /* background: #13E8E9;; */
+  background: #4CDFA8;
+  color:#4CDFA8;
   font-size: 16px;
   font-family: 'Chango', cursive;
 }
